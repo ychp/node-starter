@@ -1,5 +1,5 @@
 
-const index = async (ctx, next) => {
+const index = async (ctx) => {
   ctx.render('index.html')
 }
 
